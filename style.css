@@ -1,9 +1,41 @@
-.wrapper{
+header{
     width: 352.75px;
+}
+.wrapper{
+    width: 374.75px;
     height: 4523.47px;
-    border: 1px solid black; 
-
+    border: 3px solid #000000; 
 }
 .title-img{
-    margin- top: 36px;
+    margin-top: 36px;
+    width: 52px;
+    height: 31px;
+}
+.menu ul li{
+    display: inline-block;
+    font-size: 10px;
+}
+.sub-title{
+    display:block;
+}
+.flex{
+    display: flex;
+}
+.pic{
+    display: block;
+    width: 185px;
+    height: 75px;
+}
+.border-radius{
+    height: 75px;
+    width: 183px;
+    border-radius: 0px 0px 6.99px 6.99px;
+    border: 1px solid green;
+    margin-bottom: 24.16px;
+}
+footer{
+    background-color: #000000;
+}
+footer p{
+    color: white;
 }
