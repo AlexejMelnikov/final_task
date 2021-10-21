@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:wght@300;400;500;700&display=swap');
+body{
+       font-family: Roboto;
+}
 header{
     width: 352.75px;
 }
@@ -7,19 +12,32 @@ header{
     border: 3px solid #000000; 
 }
 .title-img{
-    margin-top: 36px;
     width: 52px;
     height: 31px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+img.logo{
+    Width: 52,19px;
+    Height: 30,75px;
+    margin-top: -21px;
+    margin-left: -18px;
 }
 .menu ul li{
     display: inline-block;
     font-size: 10px;
+      
+}
+.menu ul li img{
+    padding-right: 5px;
 }
 .sub-title{
-    display:block;
+    display: block;
 }
 .flex{
     display: flex;
+    flex-wrap: wrap;
 }
 .pic{
     display: block;
@@ -27,15 +45,121 @@ header{
     height: 75px;
 }
 .border-radius{
-    height: 75px;
-    width: 183px;
-    border-radius: 0px 0px 6.99px 6.99px;
+    height: 152.84px;
+    width: 185.92px;
+    border-radius: 6.99px 6.99px;
     border: 1px solid green;
     margin-bottom: 24.16px;
+    margin-left: 96px;;
 }
 footer{
     background-color: #000000;
 }
-footer p{
+footer ps{
     color: white;
+}
+.title-img{
+    margin-top: 36px;
+    margin-left: 35px;
+}
+ul{
+    margin-left: -35px;
+}
+
+
+div.menu li{
+    margin-left: 15px;
+    margin-top: -7px;
+}
+
+h1{
+    font-family: Roboto Slab;
+    font-size: 37px;
+    font-weight: 700;
+    margin-left: 36px;
+    margin-top: 24px;
+}
+//доделать
+.menu ul li{
+    margin-left: 4px;
+    margin-top: -1px;
+    padding-top: -4px;
+}
+.sub-title{
+    width: 212px;
+    height: 28.96px;
+    font-size: 10px;
+    margin-left: 35.74px;
+}
+.first-pic{
+   position: relative;
+   left: 165.26px;
+}
+.blue-p{
+    background-color: #1E4681;
+    color: white;
+    width: 225.26px;
+    height: 93.19px;
+    border-radius: 2.33px;
+    border: 1px solid #1E4681;
+    margin-left: 38px;
+}
+.blue-p p{
+    font-size: 11px;
+    font-weight: 400;
+    padding-top: -9px;
+    padding-left: 12.13px;
+}
+.blue-p span{
+    font-size: 10px;
+    padding-left: 87.07px;
+    font-family: Roboto;
+}
+h2:first-child{
+    font-size: 26px;
+    font-weight: 700;
+    margin-left: 36px;
+}
+article p:nth-child(2){
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 36px;
+    width: 308.47px;
+    height: 174.27px;
+}
+.with-cameras{
+    margin-left: 101px;
+}
+h3.title-reason{
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 35px;
+}
+.p-reason{
+    font-size: 10px;
+}
+.p-reason{
+    display: block;
+    margin-left: 35px;
+}
+h2{
+    font-size: 26px;
+    margin-left: 26px;
+    padding-top: 35px;
+}
+.format{
+    color: #1E4681;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 35px;
+}
+/*необходимо уменьшить отступ сверху*/
+.format-desc{
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: 35px;
+    width: 185px;
+    height: 51px;
+    padding-top: -5px;
 }
