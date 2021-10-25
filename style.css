@@ -1,0 +1,412 @@
+*
+{
+    display:block;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1400px;
+}
+
+/* header */
+
+.logo_mobile{
+    padding: 0vh 9vw;
+}
+
+.header_data{
+    display: flex;
+    margin-left: 9vw   ;
+    margin-top:  4vh;
+}
+
+.logo_data{
+
+    display: flex;
+
+    margin-right: 6vh;
+    margin-top: 11vh;
+    
+}
+
+.logo_text{
+    margin-left: 2vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+}
+
+.header_head{
+    display: block;
+    float: left;
+    
+}
+
+.header_h1{
+
+    width: 8em;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 101.38%;
+
+    margin-left: 9vw;
+    margin-top: 3rem;
+}
+
+.h1_text{
+    
+    width: 31vw;
+    height: 15vh;
+    margin-left: 9vw;
+    margin-top: 2vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.img_noroot{
+    margin-left: 20vh;
+}
+
+.header_noroot{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.rectangle{
+
+    display: flex;
+    margin-left: 30vw;
+
+    background-color: #1E4681;
+    width: 78vh;
+    height: 30vh;
+    border-radius: 5px;
+    margin-top: 7em;
+
+}
+
+.rectangle_text{
+
+    padding: 2vh 3vh;
+
+    height: 15vh;
+    
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: Roboto Slab;
+    font-size: 25px;
+    line-height: 130%;
+
+    
+
+}
+
+.text_blue{
+    
+    font-weight: 400;    
+    text-align: left;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 130%;
+
+}
+
+.blue_name{
+
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: right;
+
+}
+
+/* /header */
+
+/* about_kurs */
+
+.about_kurs{
+    margin: 28vh 0vh 0vh 20vh;
+}
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.wrapper_text{
+    padding-top: 7vh;
+}
+
+.one,.two{
+    justify-content: space-between;
+    width: 60%;
+    text-align: left;
+}
+
+
+.h1_about_kurs{
+    
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.two{
+
+    display: block;
+    margin-top: 13vh;
+    margin-left: 8vh;
+    margin-right: auto;
+    width: 40vh;
+    height: 30vh;
+}
+
+.footer_about_kurs{
+    display: flex;
+    padding: 9vh 10vh 20vh 0;
+}
+
+
+
+.my_text{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about_asite{
+    display: flex;
+    margin-top: 7vh;
+    margin-left: 14vh;
+    justify-content: space-between;
+}
+
+.text{
+    width: 10em;
+    height: 5vh;
+    
+    margin-right: 9vh;
+
+}
+
+.number {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    }
+
+.text_number{
+    margin-top: 1vh;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+/* /about_kurs */
+
+/* how_we_learn */
+
+.how_we_learn{
+    margin-left: 13vh;
+}
+
+.h1_learn{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;   
+}
+
+.learn_text{
+    display: flex;
+    justify-content: space-between;
+    width: 80% ;
+    margin-top: 14vh;
+}
+
+
+
+
+.we_learn_text{
+
+    text-align: left ;
+    width: 40vh;
+    height: 20vh;   
+
+}
+
+.we_learn {
+    color: #1E4681;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    }
+
+.text_learn{
+    font-size: 18px;
+    line-height: 130%;
+    width: 30vh;
+}
+
+
+
+/* /how_we_learn */
+
+/* will_know */
+
+.will_know{
+ margin-top: 16vh;
+ margin-left: 13vh;
+}
+
+.h1_will_know{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+
+.will_know_text{
+
+    margin-top: 6vh;
+    width: 60%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+/* /will_know */
+
+/* program_kurs */
+
+.program_kurs{
+    display: flex;
+    width: 100%;
+}
+
+.h1_program_kurs{
+    margin-top: 25vh;
+    margin-left: 14vh;
+
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+/* first */
+.kurs_first {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14vh;
+    margin-left: 10vh;
+}
+/* second */
+.kurs_second{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14vh;
+    margin-left: 10vh;
+}
+/* third */
+.kurs_third{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14vh;
+    margin-left: 10vh;
+}
+
+/* /program_kurs */
+
+/* our_students */
+
+.our_students{
+    display: block;
+    background: #EFEFEF;
+    margin-top: 50vh;
+
+}
+
+.h1_our_students {
+    margin-left: 19vh;
+    margin-top: 8vh;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+
+.about_our_students{
+    display: block;
+    width: 58vw;
+    height: 72vh;
+    margin-top: 10vh;
+    margin-left: 20vh;
+
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
+}
+
+
+.student_text{
+
+    padding-top: 4vh;
+    padding-left: 4vw;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
